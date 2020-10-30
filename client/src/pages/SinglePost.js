@@ -58,9 +58,9 @@ const commentInputRef = useRef(null)
               </Card.Content>
               <hr />
               <Card.Content extra>
-              <MyPopup content='Like it!'>
+
                 <LikeButton user={user} post={{ id, likeCount, likes }} />
-                </MyPopup>
+
                 <MyPopup content='Comment on post'>
                 <Button
                   as="div"

@@ -29,9 +29,9 @@ function PostCard({ post: { body, createdAt, id, username, likeCount, commentCou
         </Card.Description>
       </Card.Content>
       <Card.Content extra>
-      <MyPopup content='Like it!'>
+
         <LikeButton user={user} post={{ id, likes, likeCount }} />
-        </MyPopup>
+
         <MyPopup content='Comment post'>
           <Button labelPosition='right' as={Link} to={`/posts/${id}`}>
             <Button color='blue' basic>
